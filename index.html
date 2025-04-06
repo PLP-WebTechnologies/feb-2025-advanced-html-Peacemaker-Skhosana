@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Registration Page</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to the Sample Registration Page</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Steps to Register:</h2>
+        <ol type="I">
+            <li>Fill in your personal details.</li>
+            <li>Choose your preferences.</li>
+            <li>Submit the form.</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>Sample Image</h2>
+        <img src="https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg" alt="Sample Image" width="500">
+    </section>
+
+    <!-- Table of 5 Contacts -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Main St, Cityville</td>
+                <td>(123) 456-7890</td>
+                <td>johndoe@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Oak St, Townsville</td>
+                <td>(234) 567-8901</td>
+                <td>janesmith@example.com</td>
+            </tr>
+            <tr>
+                <td>Michael Brown</td>
+                <td>789 Pine St, Villagetown</td>
+                <td>(345) 678-9012</td>
+                <td>michaelb@example.com</td>
+            </tr>
+            <tr>
+                <td>Emily Clark</td>
+                <td>101 Maple St, Cityville</td>
+                <td>(456) 789-0123</td>
+                <td>emilyclark@example.com</td>
+            </tr>
+            <tr>
+                <td>Daniel Lee</td>
+                <td>202 Birch St, Suburbia</td>
+                <td>(567) 890-1234</td>
+                <td>daniellee@example.com</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+            <!-- Name -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <!-- Password -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Create a password" required><br><br>
+
+            <!-- Date -->
+            <label for="date">Date of Birth:</label>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <!-- Dropdown -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">UK</option>
+                <option value="Australia">Australia</option>
+            </select><br><br>
+
+            <!-- Radio Buttons -->
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <!-- Checkboxes -->
+            <label for="subscribe">Subscribe to our newsletter:</label>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes"><br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+        </form>
+    </section>
+</body>
+</html>
